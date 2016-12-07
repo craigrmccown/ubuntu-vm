@@ -46,7 +46,7 @@ Vagrant.configure(2) do |config|
   config.vm.provider "virtualbox" do |vb|
     vb.name = "Ubuntu-Wily"
     vb.gui = true
-    vb.cpus = 2
+    vb.cpus = 1
     vb.memory = "4096"
     vb.customize ["modifyvm", :id, "--vram", "256"]
     vb.customize ["modifyvm", :id, "--audio", "none"]
