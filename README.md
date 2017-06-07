@@ -1,1 +1,1 @@
-# ubuntu-wily-vm
+# ubuntu-vm
